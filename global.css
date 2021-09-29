@@ -1,0 +1,35 @@
+html, body, section, header, footer, main {
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+#app {
+overflow: hidden;
+}
+
+.el-container {
+display: flex;
+flex-direction: column;
+width: 100vw;
+height: 100vh;
+overflow: hidden;
+}
+
+.el-header {
+height: 80px;
+}
+
+.el-main {
+flex: auto;
+}
+
+.el-footer {
+height: 60px;
+display: flex;
+align-items: center;
+}
+
+.el-menu-item > a {
+text-decoration: none;
+}
